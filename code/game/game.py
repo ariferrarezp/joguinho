@@ -1,5 +1,10 @@
 import pygame
 
+from code.const import MENU_OPTION
+from code.game.level import Level
+from code.game.menu import Menu
+
+
 class Game:
 
     def __init__(self):
@@ -8,12 +13,15 @@ class Game:
 
     def run(self):
         while True:
-            from code.game.menu import Menu
             menu = Menu(self.window)
-            menu.run()
-            pass
-            # for event in pygame.event.get():
-               # if event.type == pygame.QUIT:
-                #    pygame.quit()
-                 #   quit()
+            menu_return = menu.run()
 
+            if menu_return in [MENU_OPTION[0], MENU_OPTION[1], MENU_OPTION[2]]:
+                level = Level(self.window, 'Level 1', menu_return)
+                level_return = level.run()
+
+            elif menu_return == MENU_OPTION[4]:
+                pygame.quit()  # Close Window
+                quit()  # end pygame
+            else:
+                pass

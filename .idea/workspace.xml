@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="473a40f7-4fd8-42b6-a14b-8bd91979973e" name="Changes" comment="criação menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entities/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entities/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entities/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entities/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/factory/entity_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/factory/entity_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game/level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +26,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature_level" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature_level" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +72,7 @@
     "Python.main.executor": "Run",
     "Python.menu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__level",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/ferra/PycharmProjects/pythonProjectjogo/code"
   }
 }]]></component>
@@ -94,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781311821187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criação menu">
+      <option name="closed" value="true" />
+      <created>1781464420295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781464420295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,9 +145,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code/game/game.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/code/game/menu.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
